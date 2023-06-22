@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  height: 70vh;
+  background-color: gold;
+}
+.heading {
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+  top: 70px;
+  color: white;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #555;
+  border-radius: 50%;
+  opacity: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-size: 2em;
+  font-weight: bold;
+  color: #1b1818;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-top: 60px solid gold;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    background-color:palevioletred;
+}
